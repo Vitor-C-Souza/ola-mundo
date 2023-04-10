@@ -1,5 +1,4 @@
 import React from 'react'
-import Banner from 'componentes/Banner/index.js'
 import styles from './inicio.module.css'
 import posts from 'json/posts.json'
 import Post from 'componentes/Post'
@@ -7,8 +6,7 @@ import Post from 'componentes/Post'
 export default function Inicio() {
   return (
 
-    <main>
-      <Banner />
+    <main>      
 
       <ul className={styles.posts}>
         {posts.map((post) => (
