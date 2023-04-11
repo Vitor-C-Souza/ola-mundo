@@ -1,9 +1,9 @@
-import styles from "./NaoEncontrado.module.css";
-
 import React from "react";
+
+import styles from "./NaoEncontrado.module.css";
 import erro404 from "assets/erro_404.png";
 
-export default function NaoEncontrado() {
+export default function NaoEncontrada() {
   return (
     <>
       <div className={styles.conteudoContainer}>
