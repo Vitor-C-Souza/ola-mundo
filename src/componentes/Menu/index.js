@@ -1,21 +1,14 @@
-import React from 'react'
-import styles from './Menu.module.css'
-import MenuLink from '../MenuLink/index.js'
+import React from "react";
+import styles from "./Menu.module.css";
+import MenuLink from "../MenuLink/index.js";
 
 export default function Menu() {
-    
-    
-  
-    return (
+  return (
     <header>
-        <nav className={styles.navegacao}>
-            <MenuLink to='/'>
-                Inicio
-            </MenuLink>
-            <MenuLink to='/SobreMim'>
-                Sobre mim
-            </MenuLink>
-        </nav>
+      <nav className={styles.navegacao}>
+        <MenuLink to="/">Inicio</MenuLink>
+        <MenuLink to="/SobreMim">Sobre mim</MenuLink>
+      </nav>
     </header>
-  )
+  );
 }
