@@ -1,3 +1,4 @@
+import OutroPost from './OutroPost/index.js'
 import styles from './PostModel.module.css'
 import React from 'react'
 
@@ -15,6 +16,7 @@ export default function PostModelo({ fotoCapa, titulo, children }) {
         <div className={styles.postConteudoContainer}>
             {children}
         </div>
+        <OutroPost style={styles}/>
     </article>
   )
 }
